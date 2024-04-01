@@ -1,0 +1,409 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.all {
+    background: url(https://api.efootballdb.com/assets/main/background-top-main.jpg) no-repeat fixed ;
+}
+.main {
+    margin: 0px 300px;
+    height: 1800px;
+}
+.container .title {
+    background: blue;
+    width: 100%;
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: 40px;
+    color: yellow;
+}
+.baycareer {
+    display: flex;
+    justify-content: start;
+    height: 450px;
+    width: 100%;
+    background: rgba(255, 0, 0, 0.147);
+}
+.baycareer .baylogo {
+    height: 450px;
+    width: 400px;
+    background: blue;
+}
+.baycareer .baylogo img {
+    background: red;
+    height: 400px;
+    width: 400px;
+
+}
+.baycareer .baylogo h1 {
+    color: white;
+    font-size: 35px;
+    margin-left: 20px;
+}
+.bayinformation {
+  
+}
+.bayinformation h1 {
+    font-size: 45px;
+    color: white;
+    padding: 30px 20px;
+    
+}
+.bayinformation .bayinfo{
+    display: flex;
+    justify-content: space-around;
+}
+.bayinformation .bayinfo .achivment{}
+.bayinformation .bayinfo .achivment h2{
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+}
+.bayinformation .bayinfo .num{}
+.bayinformation .bayinfo .num h2{
+    color: white;
+    padding: 10px ;
+    margin-left: 300px;
+}
+.mancareer {
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+    width: 100%;
+    background:rgba(0, 0, 255, 0.053);
+}
+.mancareer .manlogo {
+    height: 450px;
+    width: 400px;
+    background: rgb(20, 19, 19);
+}
+.mancareer .manlogo img {
+    background: blue;
+    height: 400px;
+    width: 400px;
+
+}
+.mancareer .manlogo h1 {
+    color: blue;
+    font-size: 35px;
+    margin-left: 20px;
+}
+.maninformation {
+  padding-left: 50px ;
+}
+.maninformation h1 {
+    font-size: 45px;
+    color: white;
+    padding: 30px 20px;
+    
+}
+.maninformation .maninfo{
+    display: flex;
+    justify-content: space-around;
+}
+.maninformation .maninfo .achivment{}
+.maninformation .maninfo .achivment h2{
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+}
+.maninformation .maninfo .num{}
+.maninformation .maninfo .num h2{
+    color: white;
+    padding: 10px ;
+    margin-left: 300px;
+}
+.acmcareer {
+    display: flex;
+    justify-content: start;
+    height: 450px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.337);
+}
+.acmcareer .acmlogo {
+    height: 450px;
+    width: 300px;
+    background: rgb(255, 0, 0);
+}
+.acmcareer .acmlogo img {
+    background: rgb(0, 0, 0);
+    height: 400px;
+    width: 300px;
+
+}
+.acmcareer .acmlogo h1 {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    margin-left: 20px;
+}
+.acminformation {
+  
+}
+.acminformation h1 {
+    font-size: 45px;
+    color: white;
+    padding: 30px 20px;
+    
+}
+.acminformation .acminfo{
+    display: flex;
+    justify-content: space-around;
+}
+.acminformation .acminfo .achivment{}
+.acminformation .acminfo .achivment h2{
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+}
+.acminformation .acminfo .num{}
+.acminformation .acminfo .num h2{
+    color: white;
+    padding: 10px ;
+    margin-left: 300px;
+}
+ @media (max-width:1550px) {
+    .main {
+        margin: 0px 0px;
+        height: 1600px;
+    }
+    .title h1 {
+        font-size: 45px;
+    }
+    
+}
+@media (max-width:950px) {
+  .all {
+      margin: 0px 0px;
+      height: 1600px;
+  }
+  .title h1 {
+      font-size: 45px;
+  }
+  .baycareer {
+    height: 250px;
+    width:100% ;
+}
+.baycareer .baylogo {
+    height: 250px;
+    width: 200px;
+}
+.baycareer .baylogo img {
+    height: 200px;
+    width: 200px;
+}
+.baycareer .baylogo h1 {
+    color: white;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.bayinformation h1 {
+    font-size: 25px;
+    color: white;
+    padding: 30px 20px;
+    
+}
+  .mancareer {
+    height: 250px;
+    width:100% ;
+}
+.mancareer .manlogo img {
+    height: 200px;
+    width: 200px;
+}
+.mancareer .manlogo {
+    height: 250px;
+    width: 200px;
+}
+.mancareer .manlogo h1 {
+    color: rgb(32, 0, 210);
+    font-size: 23px;
+    margin-left: 15px;
+}
+.maninformation {
+    padding-left: 0px ;
+  }
+.maninformation h1 {
+    font-size: 25px;
+    color: white;
+    padding: 30px 20px;
+    
+}
+  .acmcareer {
+    height: 250px;
+    width:100% ;
+}
+.acmcareer .acmlogo {
+    height: 250px;
+    width: 150px;
+}
+.acmcareer .acmlogo img {
+    height: 200px;
+    width: 150px;
+}
+.acmcareer .acmlogo h1 {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    margin-left: 15px;
+}
+.acminformation h1 {
+    font-size: 25px;
+    color: white;
+    padding: 30px 20px;
+    
+}
+.maninformation .maninfo .num h2{
+    color: white;
+    padding: 10px ;
+    margin-left: 200px;
+}
+.bayinformation .bayinfo .num h2{
+    color: white;
+    padding: 10px ;
+    margin-left: 200px;
+}
+.acminformation .acminfo .num h2{
+    color: white;
+    padding: 10px ;
+    margin-left: 200px;
+}
+}
+
+@media (max-width:640px) {
+    .maninformation .maninfo .num h2{
+        color: white;
+        padding: 10px ;
+        margin-left: 80px;
+    }
+    .bayinformation .bayinfo .num h2{
+        color: white;
+        padding: 10px ;
+        margin-left: 80px;
+    }
+    .acminformation .acminfo .num h2{
+        color: white;
+        padding: 10px ;
+        margin-left: 80px;
+    }  
+}
+
+@media (max-width:500px) {
+    .maninformation .maninfo .num h2{
+        color: white;
+        padding: 10px ;
+        margin-left: 0px;
+    }
+    .bayinformation .bayinfo .num h2{
+        color: white;
+        padding: 10px ;
+        margin-left: 30px;
+    }
+    .acminformation .acminfo .num h2{
+        color: white;
+        padding: 10px ;
+        margin-left: 30px;
+    }  
+    h2 {
+        font-size: 20px;
+    }
+}
+@media (max-width:420px) {
+    .maninformation .maninfo .num h2{
+        color: white;
+        padding: 10px ;
+        margin-left: 0px;
+    }
+    .bayinformation .bayinfo .num h2{
+        color: white;
+        padding: 10px ;
+        margin-left: 30px;
+    }
+    .acminformation .acminfo .num h2{
+        color: white;
+        padding: 10px ;
+        margin-left: 30px;
+    }  
+    /* h2 {
+        font-size: 20px;
+    } */
+    .maninformation .maninfo h2{
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    .bayinformation .bayinfo h2{
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    .acminformation .acminfo h2{
+        padding: 0px;
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    .baycareer .baylogo img {
+        height: 150px;
+        width: 150px;
+    }
+    .mancareer .manlogo img {
+        height: 150px;
+        width: 150px;
+    }
+    .acmcareer .acmlogo img {
+        height: 150px;
+        width: 120px;
+    }
+    .mancareer .manlogo {
+        height: 200px;
+        width: 150px;
+    }
+    .baycareer .baylogo {
+        height: 200px;
+        width: 150px;
+    }
+    .acmcareer .acmlogo {
+        height: 200px;
+        width: 120px;
+    }
+    .mancareer .manlogo h1 {
+        font-size: 18px;
+    }
+    .baycareer .baylogo h1 {
+        font-size: 18px;
+    }
+    .acmcareer .acmlogo h1 {
+        font-size: 18px;
+    }
+    .baycareer {
+        height: 200px;
+    }
+    .mancareer {
+        height: 200px;
+    }
+    .acmcareer {
+        height: 200px;
+    }
+    .maninformation h1 {
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+    .bayinformation h1 {
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+    .acminformation h1 {
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+}
+
+
+
+
+
+
+
+

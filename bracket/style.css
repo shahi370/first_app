@@ -1,0 +1,206 @@
+/* .container {
+    background: url(wc_bracket_2010_empty.jpg);
+} */
+.container {
+
+}
+.container .colmatch {
+    height: 1000px;
+    width: 100%;
+    background: url(fifa-world-cup-2022-bracket-banner-n17vw.webp);
+    background-size: cover;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+
+}
+.container .colmatch .col1,.col2,.col3,.col4,.col5 {
+    height: 900px;
+    width: 270px;
+    /* background: rgba(128, 128, 128, 0.393); */
+    position: relative;
+    left: 15px;
+    bottom: -23px;
+}
+.container .colmatch .col2,.col4 {
+    flex-basis:340px ;
+    position: relative;
+    left: -20px;
+}
+.container .colmatch .col3 {
+    flex-basis:400px ;
+    align-self: flex-end;
+    height: 650px;
+    position: relative;
+    left: 0px;
+    bottom: 20px;
+}
+.container .colmatch .col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 60px;
+}
+.container .colmatch .col1 .row {
+    /* background: #50505049; */
+    height: 60px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+.container .colmatch .col1 .row8 {
+    height: 60px;
+    width: 250px;
+    position: relative;
+    bottom: 10px;
+}
+.container .colmatch .col5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 60px;
+}
+.container .colmatch .col5 .row {
+    /* background: #50505049; */
+    height: 60px;
+    width: 250px;
+}
+.container .colmatch .col5 .row8 {
+    height: 60px;
+    width: 250px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.container .colmatch .col3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 80px;
+}
+.container .colmatch .col3 .row {
+    /* background: #50505049; */
+    height: 60px;
+    width: 370px;
+    position: relative;
+    top: 25px;
+}
+.container .colmatch .col3 .row3 {
+    /* background: #50505049; */
+    height: 60px;
+    width: 370px;
+    position: relative;
+    top: 220px;
+}
+
+
+
+
+.container .colmatch .col2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    height: 890px;
+}
+.container .colmatch .col2 .part1 {
+    /* background: #50505017; */
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 60px;
+}
+.container .colmatch .col2 .part1 .row {
+    /* background: #50505049; */
+    height: 60px;
+    width: 300px;
+    position: relative;
+    top: 48px;
+}
+.container .colmatch .col2 .part1 .row2 {
+    position: relative;
+    left: 220px;
+}
+.container .colmatch .col2 .part2 {
+    /* background: #50505017; */
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 60px;
+}
+.container .colmatch .col2 .part2 .row {
+    /* background: #50505049; */
+    height: 60px;
+    width: 300px;
+    position: relative;
+    top: 10px;
+}
+.container .colmatch .col2 .part2 .row2 {
+    position: relative;
+    left: 220px;
+}
+
+
+
+.container .colmatch .col4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    height: 890px;
+}
+.container .colmatch .col4 .part1 {
+    /* background: #50505017; */
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 60px;
+}
+.container .colmatch .col4 .part1 .row {
+    /* background: #50505049; */
+    height: 60px;
+    width: 300px;
+    position: relative;
+    top: 48px;
+    left: 50px;
+}
+.container .colmatch .col4 .part1 .row2 {
+    position: relative;
+    left: -155px;
+}
+.container .colmatch .col4 .part2 {
+    /* background: #50505017; */
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 60px;
+}
+.container .colmatch .col4 .part2 .row {
+    /* background: #50505049; */
+    height: 60px;
+    width: 300px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+.container .colmatch .col4 .part2 .row2 {
+    position: relative;
+    left: -155px;
+}
+
+
+
+
+
+
+
+
+

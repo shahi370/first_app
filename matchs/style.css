@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.all {
+    background: url(https://api.efootballdb.com/assets/main/background-top-main.jpg) no-repeat fixed;
+
+}
+.main {
+    margin: 0px 300px;
+    height: 1400px;
+}
+.back {
+    /* background: rgba(0, 0, 0, 0.813); */
+    height: 1000px;
+    
+}
+.container {
+    background: rgb(0, 68, 255);
+    width: 100%;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.container .title {
+    padding: 10px;
+}
+.container .title h1{
+    font-size: 70px;
+    color: yellow;
+}
+.torname h1 {
+    font-size: 50px;
+    margin: 5px 0px 5px 50px;
+    color: rgb(31, 0, 207);
+}
+.commoni {
+    height: 200px;
+    width: 320px;
+    background: rgba(0, 0, 0, 0.091);
+    margin: 18px 10px;
+    border: 5px solid rgba(38, 0, 255, 0.599);
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: ; */
+}
+.rounds1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.rounds2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fighto {
+    color: rgb(82, 82, 82);
+}
+.fighto1 {
+    /* color: rgb(255, 255, 255); */
+    color: #fff;
+    padding: 8px 0px;
+}
+.fighto2 {
+    padding: 8px 0px;
+    color: red;
+}
+.fighto3 {
+    padding: 8px 0px;
+    color: rgb(0, 0, 255);
+}
+.match1 {
+    position: absolute;
+    left:80px ;
+    top: 250px;
+}
+.match2 {
+    top: 500px;
+    left:80px ;
+    position: absolute;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #0004ff47;
+  }
+  td, th {
+    border: 1px solid #2b00ff;
+    text-align: left;
+    padding: 8px 20px;
+  }
+  .result h1 {
+    font-size: 50px;
+    color: rgb(31, 0, 207);
+    padding: 20px 40px;
+  }
+  @media (max-width:1610px) {
+    .main {
+        margin: 0px 100px;
+        height: 2000px;
+    }
+    .container .title {
+        padding: 10px;
+    }
+    .container .title h1{
+        font-size: 50px;
+        color: yellow;
+    }
+    .torname h1 {
+        font-size: 27px;
+        margin: 5px 0px 5px 50px;
+        color: rgb(31, 0, 207);
+    }
+    .commoni {
+        font-size: 25px;
+    }
+    .match1 {
+        display: none;
+    }
+    .match2 {
+        display: none;
+    }
+  }
+  @media (max-width:510px) {
+.commoni {
+    height: 200px;
+    width: 320px;
+    background: rgba(0, 0, 0, 0.091);
+    margin: 18px 10px;
+    border: 5px solid rgba(38, 0, 255, 0.599);
+    border-radius: 15px;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: ; */
+}
+.main {
+    margin: 0px 0px;
+    height: 2000px;
+}
+  }
+
+
+
