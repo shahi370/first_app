@@ -1,0 +1,232 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.main {
+    background: #000;
+    margin: 0px 0px;
+    height: 1000px;
+}
+.container {
+    display: block;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.container .title {
+    background: blue;
+    width: 100%;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.container .title .name {
+    font-size: 70px;
+    color: yellow;
+}
+.container .navbar {
+    width: 100%;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: center;
+    background: rgb(55, 55, 255);
+    flex-wrap: wrap;
+    
+}
+.container .navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+.container .navbar ul li {
+
+}
+.container .navbar ul li a {
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.container .navbar a:hover {
+    background: rgb(16, 16, 255);
+}
+
+.details1 {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.details1 .frontpic {
+    margin-left:20px ;
+    margin-right: 80px;
+    width: 900px;
+}
+.details1 .frontpic img {
+    margin: 20px 0px;
+    /* height: 550px; */
+    width: 100%;
+    height: auto;
+}
+.teamname h1{
+    font-size: 60px;
+    color: rgb(42, 0, 141);
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+.teamname h2{
+    font-size: 50px;
+    padding: 8px 15px;
+    color: rgb(255, 255, 255);
+    margin: 20px 0px;
+}
+.teamname .man{
+    background: blue;
+}
+.teamname .bay{
+    background: rgb(255, 0, 0);
+}
+.teamname .ac{
+    background: rgb(31, 31, 31);
+}
+.logos {
+    margin-top: 100px;
+}
+.logos .manlogo img {
+    height: 150px;
+    width: 150px;
+    margin: 50px 0px 0px 189px;
+}
+.logos .baylogo img {
+    height: 150px;
+    width: 150px;
+    /* margin: 20px 0px 0px 300px; */
+    position: absolute;
+    left: 1685px;
+    top: 540px;
+}
+.logos .acmlogo img {
+    height: 150px;
+    width: 110px;
+    position: absolute;
+    left: 1495px;
+    top: 540px;
+}
+@media (max-width:1850px) {
+    .logos .manlogo img {
+        display: none;
+    }
+    .logos .baylogo img {
+        display: none;
+    }
+    .logos .acmlogo img {
+        display: none;
+    }
+    .main {
+        height: 1500px;
+    }
+    
+}
+@media (max-width:1840px) {
+    .main {
+        background: #000;
+        margin: 0px 0px;
+        height: 1500px;
+    }
+    .teamname .man{
+        margin-left: 12px;
+    }
+    .teamname .bay{
+        margin-left: 12px;
+    }
+    .teamname .ac{
+        margin-left: 12px;
+    }
+    .teamname h1{
+        margin-left: 15px;
+    }
+    /* .details1 .frontpic img {
+        margin: 20px 10px;
+        height: 750px;
+        width: 1500px
+    } */
+    .details1 .frontpic {
+        width: 100%;
+        margin-left:0px ;
+        margin-right: 0px;
+    }
+    .details1 .frontpic img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width:1540px) {
+    /* .details1 .frontpic img {
+        margin: 20px 10px;
+        height: 750px;
+        width: 1200px
+    } */
+    .main {
+        height: 1500px;
+    }
+}
+@media (max-width:1220px) {
+    /* .details1 .frontpic img {
+        margin: 20px 10px;
+        height: 450px;
+        width: 800px
+    } */
+    .details1 {
+        margin-left: 0px;
+    }
+    .main {
+        height: 1500px;
+    }
+}
+@media (max-width:870px) {
+    /* .details1 .frontpic img {
+        margin: 20px 10px;
+        height: 350px;
+        width: 600px
+    } */
+    .main {
+        height: 1500px;
+    }
+
+}
+@media (max-width:870px) {
+    /* .details1 .frontpic img {
+        margin: 20px 10px;
+        height: 250px;
+        width: 400px
+    } */
+    .main {
+        height: 1500px;
+    }
+    .container .title .name {
+        font-size: 60px;
+        margin-left: 20px;
+    }
+}
+@media (max-width:475px) {
+    /* .details1 .frontpic img {
+        margin: 20px 10px;
+        height: 200px;
+        width: 260px
+    } */
+    
+    .main {
+        height: 1500px;
+    }
+    .container .title .name {
+        font-size: 60px;
+        margin-left: 20px;
+    }
+    .teamname h1 {
+        font-size: 30px;
+    }
+    .teamname h2 {
+        font-size: 25px;
+    }
+}
